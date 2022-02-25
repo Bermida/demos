@@ -1,0 +1,29 @@
+
+.arrow-container span {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+}
+.arrow-container {
+    display: none;
+}
+.banner-container:hover .arrow-container {
+    display: block;
+}
+.arrow-container .left {
+    left: 0;
+    padding-left: 1px;
+    border-radius: 0 15px 15px 0;
+}
+.arrow-container .right {
+    right:0;
+    padding-left: 6px;
+    border-radius: 15px 0 0 15px;
+}
