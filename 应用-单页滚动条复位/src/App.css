@@ -1,0 +1,29 @@
+.page {
+    width: 2000px;
+    height: 2000px;
+    border: 2px solid;
+}
+.page1 {
+    background: lightblue;
+}
+.page2 {
+    background: lightgray;
+}
+.nav {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: darkblue;
+    color: black;
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin: 20px 0;
+}
+.nav a.active {
+    color: #fff;
+}
